@@ -1,0 +1,21 @@
+$purpleLight:#302D43;
+$prupleDark:#202639;
+$neonGreen:#92CF48;
+$lightGrey:#F4F6F9;
+$darkGrey:#EAEDF3;
+$greyFontDark:#6C7882;
+$greyFontLight:#BBC1CD;
+$greyFontLight2:#A5ADBD;
+$orange:#F48320;
+$purple:#744BCE;
+
+
+
+//Grid system
+
+$grid-colums:12;
+$grid-max-width:1200px;//breakPoint-small
+$breakPoint-small:"only screen and (min-width 0px)";
+$breakPoint-medium:"only screen and (min-width:780px)";
+$breakPoint-large:"only screen and (min-width:1008px)";
+$breakPoint-xl:"only screen and (min-width:1300px)";

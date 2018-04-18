@@ -1,0 +1,121 @@
+@import "var";
+
+
+#content-area {
+  margin-left: 280px;
+  padding: 15px;
+
+  .heading {
+    h1 {
+      color: $purple;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #1B1B1B;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+  }
+  .cards {
+    overflow: auto;
+    margin-bottom: 30px;
+    .card {
+      background: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      overflow: auto;
+      .user-Image {
+        background: url("https://s3.amazonaws.com/uifaces/faces/twitter/jina/128.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        margin: 0 auto;
+      }
+      .user-Name {
+        font-size: 1rem;
+        color: $purple;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .user-Title {
+        display: block;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 10px 0;
+      }
+      .education {
+        font-size: 0.8rem;
+        display: inline-block;
+        color: $greyFontDark;
+      }
+      .schools {
+        font-size: 0.8rem;
+      }
+      h6 {
+        font-size: 0.8rem;
+      }
+      .date {
+        font-size: 1.3rem;
+        display: block;
+        border-left: 5px solid #92CF48;
+        position: relative;
+        left: -20px;
+        padding: 5px 40px;
+        margin: 20px 0;
+      }
+      .jobType {
+        background: $orange;
+        width: 20px;
+        height: 20px;
+        font-size: 0.5rem;
+        color: white;
+        padding: 5px;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+    .location {
+      font-size: 0.8rem;
+      font-weight: 300;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .position {
+      font-size: 0.8rem;
+      font-weight: 500;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .time {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: $greyFontDark;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+
+
+table{
+  width: 100%;
+  background: white;
+}
+
+
+
+
+
+
+
+

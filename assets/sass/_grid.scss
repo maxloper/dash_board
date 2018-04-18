@@ -1,0 +1,65 @@
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+///clear fix
+.container:after,
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-']{
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px;
+  display: inline-block;
+}
+@media#{$breakPoint-small}{
+  .container {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-colums {
+    .col-sm-#{$i} {
+      width: 100%/$grid-colums *$i;
+    }
+  }
+}
+
+@media#{$breakPoint-medium}{
+  .container {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-colums {
+    .col-md-#{$i} {
+      width: 100%/$grid-colums *$i;
+    }
+  }
+}
+@media#{$breakPoint-large}{
+  .container {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-colums {
+    .col-lg-#{$i} {
+      width: 100%/$grid-colums *$i;
+    }
+  }
+}
+
+@media#{$breakPoint-xl}{
+  .container {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-colums {
+    .col-xl-#{$i} {
+      width: 100%/$grid-colums *$i;
+    }
+  }
+}
